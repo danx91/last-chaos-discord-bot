@@ -9,20 +9,20 @@ This bot was mainly created for small servers that need a way to register new us
 
 # Installation
 1. Download this repository
-2. Open 'config.json' in a text editor of your choice
+2. Open `config.json` in a text editor of your choice
 3. Change bot and database configuration and optionally edit/translate other fields
 4. Open cmd and navigate to the folder with these files
-5. Run 'npm install' - this command will install all required packages
-6. Run 'node commands.js' - this will add slash command to your Discord server
-7. Run 'node bot.js'
+5. Run `npm install` - this command will install all required packages
+6. Run `node commands.js` - this will add slash command to your Discord server
+7. Run `node bot.js`
 8. Create discord channel that will be exlusive for that bot and make sure that bot have sufficient access to that channel (view channel and send messages).
-9. Type '/last-chaos-spawn' (administrator permission required) - this command will create bot message that will allow players to register.
+9. Type `/last-chaos-spawn` (administrator permission required) - this command will create bot message that will allow players to register.
 
-*I highly recommend using 'pm2' to run this bot as it will restart your bot in case of crash and is capable of starting your bot on machine startup*
+*I highly recommend using `pm2` to run this bot as it will restart your bot in case of crash and is capable of starting your bot on machine startup.*  
 *Additionally, you might need to change MySQL queries (tables names and definitions) to match your Last Chaos database structure.*
 
 # Usage
-1. Press 'Register' button
+1. Press `Register` button
 2. Accept rules
 3. Fill fields with your username and password
 4. If registration fails, read error message and repeat this process
