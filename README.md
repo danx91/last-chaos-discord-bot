@@ -1,4 +1,4 @@
-# Simple Last Chaos Discord bot based authentication
+# Simple, Discord bot based authentication for Last Chaos
 This bot was mainly created for small servers that need a way to register new users without hosting a whole website. This bot is really simple and provides bare minimum required to register new users efficiently without the need to manual database operations.
 
 # Requirements
