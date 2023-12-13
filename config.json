@@ -1,0 +1,45 @@
+{
+	"CLIENT": "BOT_CLIENT_ID",
+	"TOKEN": "BOT_TOKEN",
+	"GUILD": "GUILD_ID",
+
+	"MYSQL": {
+		"HOST": "localhost",
+		"PORT": "3306",
+		"USER": "test",
+		"PASSWORD": "test",
+
+		"BOT_DATABASE": "dc_auth",
+		"LC_DATABASE": "2015_auth",
+
+		"ATTEMPTS": 5
+	},
+
+	"MESSAGE": {
+		"COLOR": "#00CC00",
+		"TITLE": "Register Last Chaos Account",
+		"DESCRIPTION": "Use button below to register your account. Remember to read and obey rules. See announcements channel for more info.\n\nHave fun!",
+		"REGISTER": "Register",
+		"DOWNLOAD": "Download Client",
+		"CLIENT_URL": "https://some.host.example/your/file.zip"
+	},
+
+	"REGISTER": {
+		"ERROR_INTERNAL": "Internal error! Try again after some time.\nIf this error appears again please contact server staff.",
+		"ERROR_ACCOUNT_EXISTS": "You alreade have an account!\nIf you forgot your password, please contant server staff.",
+		"ERROR_INVALID_USERNAME": "Invalid user name!",
+		"ERROR_USERNAME_EXISTS": "This username is already in use!",
+		"ERROR_INVALID_PASSWORD": "Invalid password!",
+
+		"RULES_CONTENT": "## Last Chaos server rules\n* **Please use unique password to register! This game uses obsolete MD5 hashing that can be cracked in a matter of seconds**\n* Username can contain lowercase and uppercase letters, numbers, spaces and underscores\n* Password can only contain lowercase and uppercase letters and numbers\n\nIf you accept these rules, press 'Accept' button below.",
+		"RULES_ACCEPT": "Accept",
+
+		"TITLE": "Register Account",
+		"USERNAME": "Username",
+		"PASSWORD": "Password",
+		"SUCCESS": "Your account was successfully registered\nYou can now login to the game.",
+
+		"USERNAME_REGEX": "^([a-zA-Z0-9_ ]){5,30}$",
+		"PASSWORD_REGEX": "^([a-zA-Z0-9]){8,16}$"
+	}
+}
